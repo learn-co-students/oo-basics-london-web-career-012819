@@ -9,15 +9,7 @@ class Shoe
     @brand
   end
 
-  def color=(color)
-    @color = color
-  end
-
-  def color
-    @color
-  end
-
-  attr_accessor :size, :material
+  attr_accessor :size, :material, :color
 
   def condition=(condition)
     @condition = condition
